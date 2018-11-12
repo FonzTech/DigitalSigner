@@ -8,7 +8,8 @@ When you look at source code, I use the term `hardware` instead of `smart card` 
 ***
 
 ### What Kind Of Operating Systems It Support?
-On Windows it does only work under a 32bit JVM, because of the implementation of the Bit4Id library.
+This library has been tested with Bit4Id smart cards. These are my tests:
+On Windows it does only work under a 32bit JVM, because of the implementation of the smart card library.
 On Linux it works on both 32bit and 64bit machines as expected.
 On MacOS, I tested only on 64Bit machines (running Sierra).
 
