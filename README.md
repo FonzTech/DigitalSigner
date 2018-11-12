@@ -68,7 +68,7 @@ digitalSigner.setSlot("0");
 
 ***
 
-# Part Two: Let's Use This Library
+# Part Two: Using The Library
 The library is pretty straightforward.
 
 You can extract the content from a CAdES signed content (in P7M format, presumably) via this function:
