@@ -18,7 +18,7 @@ Currently, it has been tested with the Italian CNS (Carta Nazionale dei Servizi)
 Other developers can request modifications to make this library work with their cards.
 
 ### Known Bugs
-On Windows, if you disconnect, then reconnect the hardware, calling "signData" method will give you an exception. This does not happen on Linux, nor MacOS.
+On Windows, using Bit4Id smart cards, if you disconnect, then reconnect the hardware, calling `signData` method will give you an exception. This does not happen on Linux, nor MacOS.
 
 ### Required Dependencies
 This library depends on BouncyCastle. It requires both Provider and S/MIME API provided by the 1.6 version, specifically. Other versions will not work correctly, because some functions have been deprecated.
