@@ -16,7 +16,13 @@ public class VerifySignature extends Thread
 	private ArrayList<ArrayList<String[]>> issuers;
 	private ArrayList<String> plainIssuer;
 	private boolean verified;
-	
+
+	/**
+	 * This method returns the long field name for a certificate field name.
+	 *
+	 * @param field a certificate field name
+	 * @return string representing the long field name.
+	 */
 	public static String getFieldName(String field)
 	{
 		switch (field)
