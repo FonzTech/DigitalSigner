@@ -1,6 +1,9 @@
 # DigitalSigner
-Digital Signer library it's a Java library which allows using apposite hardware for data signing in CAdES format.
+Digital Signer library it's a Java library which allows using smart cards for data signing in CAdES format.
 You can also do Client Certificate Authentication with this library.
+
+### Small Note
+When you look at source code, I use the term `hardware` instead of `smart card` because it's more generic.
 
 ### What Kind Of Operating Systems It Support?
 On Windows it does only work under a 32bit JVM, because of the implementation of the Bit4Id library.
