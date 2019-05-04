@@ -124,5 +124,5 @@ String alias = digitalSigner.getAliasForCNS();
 
 ***
 
-# Bonus Part: Client Certificate Authentication
+# Optional Part: Client Certificate Authentication
 You can use `SSLContext` to achieve Client Certificate Authentication, and `X509KeyManager` to choose the certificate to be used, by defining its alias. Take a look at the `ClientCertAuth.java` class for further information about the process.
